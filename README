@@ -7,11 +7,11 @@ All scripts use jiraauth.py as a helper for authentication; that script in turn
 expects to find a file at ~/.jira-python/jirashell.ini , with a format like:
 
 [options]
-server = https://eucalyptus.atlassian.net
+server = https://genymobile.atlassian.net
 
 [basic_auth]
-username = agrimm
-password = s3kr1t
+username = afouques
+password = (optional)YourPassword
 
 Note that this same config file can be used to run jirashell from jira-python's
 tools subdirectory.  jirashell provides an interactive jira client via ipython.
